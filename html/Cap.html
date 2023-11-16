@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="assets/css/themify-icons.css" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Style css -->
+    <link rel="stylesheet" href="/css/fonts/style.css" />
+    <link rel="stylesheet" href="/css/fonts/nav.css" />
+
+    <!-- Responsive 5 css -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- font awasome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .small-img-group {
+        display: flex;
+        justify-content: space-between;
+      }
+      .small-img-col {
+        flex-basis: 24%;
+        cursor: pointer;
+      }
+      select {
+        display: block;
+        padding: 11px;
+        font-size: 1.23rem;
+      }
+      input {
+        width: 50px;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 18px;
+        margin-right: 10px;
+      }
+      input:focus {
+        outline: none;
+      }
+      span{
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <!-- navbar -->
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="/html/product.html">Fashion Flair </a>
+              <button
+                class="navbar-toggler collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-content"
+              >
+                <i class="fas fa-stream text-white"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-content">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="/html/main.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside"
+                      >Women's Fashion</a
+                    >
+                    <ul class="dropdown-menu shadow">
+                      <li>
+                        <a class="dropdown-item" href="/html/product.html"
+                          >T-shirts</a
+                        >
+                      </li>
+                      <li><a class="dropdown-item" href="/html/Cap.html">Caps</a></li>
+                      <li class="dropend">
+                        <a
+                          href="/html/Cap.html"
+                          class="dropdown-item dropdown-toggle"
+                          data-bs-toggle="dropdown"
+                          data-bs-auto-close="outside"
+                          >accessories</a
+                        >
+                        <ul class="dropdown-menu shadow">
+                          <li>
+                            <a class="dropdown-item" href="/html/Earrings.html"> Earrings</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="/html/handbags.html"> Handbag</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="/html/necklace.html"> Necklace</a>
+                          </li>
+                          <li class="dropend">
+                            <ul class="dropdown-menu dropdown-submenu shadow">
+                              <li class="dropend">
+                                <ul class="dropdown-menu dropdown-submenu shadow">
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+    
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="/html/signin.html"
+                      >SignIn</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="/add_to_cart_v3-main/cart.html"
+                      >Cart</a
+                    >
+                  </li>
+                </ul>
+                <form class="d-flex ms-auto">
+                  <div class="input-group">
+                    <input
+                      class="form-control border-0 mr-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn border-0" type="submit">Search</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </header>
+      <!-- women's product -->
+      <section class="container my-5 pt-5 pb-5">
+        <div class="row mt-5">
+          <div class="col-lg-5 col-md-1 col-12">
+            <img class="img-fluid w-100 pb-1" src="https://media.istockphoto.com/id/1336133460/vector/realistic-black-cap-mockup-realistic-3d-hat-blank-template-black-baseball-caps-vector-mockup.jpg?s=612x612&w=0&k=20&c=lC0LoT6RJaH6rgj4QGeQ5fd8cSP0quauXiK1CwEao_A=" />
+            <div class="small-img-group">
+              <div class="small-img-col">
+                <img src="https://media.istockphoto.com/id/864713752/photo/baseball-hat.jpg?s=612x612&w=0&k=20&c=rSiZHY3_-km8Cx0fgFWWG3Rh2PlcAnFaFtJybApBq_s=" width="100% class="small-img"
+                id="MainImg" alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTEBMVFRIVFRUXFRUXEhYVFRUVGBUXFxUSFRUYHCggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQFy0lICYrLTArKy8uLSstLS0tLS0rKy03LTc3Li8rKy0tNy0tLS0uKystNi8uLS0xMS0tKy0tLf/AABEIANMA7wMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQMCBAYFB//EAEUQAAIBAgEHCAYIAwcFAAAAAAABAgMRBAUSITFBUfAGEyJhcZGhsRQyM4HB0SNCUmJygrLhFUPxByQ0c3SSsxZTY5Oi/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAEDBAIFBv/EACoRAQACAQMCBAUFAAAAAAAAAAABAgMEETESIQUyUWEiQXGBkRMUQlKh/9oADAMBAAIRAxEAPwD7iAAAAAAAAAAAAAAAAAAANWvlClB2nUinuckZ4fGU6ns5xlvtJOxO0uum22+y8AEOQAAAAAAAAAAAAAAAAAAAAAAAAAhgSDXxmLhSi51JKMVtbOYxXKapU0UI5kP+5JXk/wAMfizqtJtwuxYL5PLDrpNLWa88fSWuce+5xVSs3pnKU3vk7+Gpdxg65ZGL3bK+H+suwqZZpLU2+xfM1amX47I97OWlWMeeOoxQuroKRyqxWS1NycqktLb0Jb77TayHk+OGqRqwnNuz0NqzTW2yKHVMqNboR7PJlkx22a7Vma9M8Osp5dX1o9z+ZuUsqUpfWt2qxxTxJlDEceRXOKGO2hpPHZ3kK8Xqkn2NFpwaxG8mOLt6spRf3ZNeGo5/SUToJ+Uu7BxtDlBXp+s1Wht0WqL3rQ+46bJuUqdeGfTldbVtT3NHFqTDNl098feeG4CCThQAAAAAAAAAAAAAAAAi5p5WylDD03UqOyXi9yNqtUUYuUnZJXb6j5tj8ovF1XUl7GDtSjva1zfv1da7DulOqWrS6ec1u/Ecs6+JqYmfO17qP8ulsitkpLa+rYZSqFM6hW5muIe7WsRG0Qtq1HZ29a2i+q+zOtpsYxqOyu7va7Wu9rtsXUVORFwnZa5mOeV3MHIJWyqlVKr0Fd/a/U+GYSkV0vUX5/1PZxsBsv58yVfjzNPnOOOLEKpxxuBs3pYmSWh2ZhhsTKyU7t77ZvhfsNRVDJVAbPRVQnC42dCfO0np+vHZNdm886NUsVW4mETSJjaX0/JWUYV6calN6GtK2p7UzcPl+QsqvC1r/wAmo7TW531rjfvPptKopJSi7pq6fUZb06ZeDqtPOG3tPCwAFbKAAAAAAAAAAAAU4uuqcJTlqim/2CYjednLcuspNKOHpu0ptZzT0qOt+Cb7jmo2SSSskrJbktRjisS6tepOT0rR32bt7rL3GLkbKV6Y2fRafFGKkV/P1ZuREmYZwudLmaYlIxzzCcgJcjG5jcwuEplIrpy6K/N+qVv294lIog+ivz3/ANz47glkpcccbCM7jjZuKZS48yM7jzJSvzic4187+uwyzgjZepE53HHGkoUjJMC+p0otPbxdHZf2e5Xc4OhN9KF3HsvpXin7zh84tyXjnh8RCot+nr0fK/cji9d42UajD+rjmv4fZkDGnNNJrU0mveZGN82AAAAAAAAAAAc1yyxmbGNNfW6T7Fq8fI6Rnz/lTis/ES+6s1e7X4tlmKN7Nmhx9WWPbu8DDO+e99SXhZfAtkyjCan+Of6vMuNT3kIyuQABgyURJgYN+Zi2DEkRnccceRRTl0V2z/VL9y5q9zWi9C7Z/qd/h4dYSiRXfjjhkOfXx17kO0JSmZZxiALFMm5VcZwFyZRjZWi39m0u53fhcsgzHFRvCX4ZeQH1fkbjedw0LvTDovuuvBnvHz3+zTG6oN+0pxf5kvk2fQTHkja0vnNXj6Mto+6QAcMwAAAAAAACuvUUYuT1JN9yPleIquU23rd2+1vSfROUtbMw83vSj/uaR82nLSaMMdpl6/htPhtZVh36y+833pMt2FFLRUkt8U+7Q/gXlz00MIi5CYGbKJzLKjNWbZIzzhcwSJYSiU9ZqZ/RX5v1SNi2vjyNO3Rj+b9Tvx8glg5kxnxxs8zCSMVHjrCWwpkplMWZRmBYyEY3MkELYIjFO1Of4ZeRZTRRlN2o1PwPx0BD2OS1fmnQlqzcy/Zqa7mz68mfGsO7KK+78D6xkXEc5Qpy3xV+1aH4oz5o4l5PiVPLb7N4AFDygAAAAAAIA5vlxVtShH7U79yfzRwtQ6zl3U6dOO6Lfe0vgclUNeKPhe9oa7YYVyX0kXvUl3pP4Gyka9Veo/vfBm3GJ22NaprMoaxOF2W0oEjXrvYVyiY4jF0k1eSutid32JIq9IlJdClN9qzV3yaCVzkiuciOZrNLo049Tk2/BFVXBYhvRUgt3Qk/iBZLj5mqp9GP4W/F+7jrNWrkfFt+3g/yyXu19RT/AAfFpWz6ctFvWkurau0jc3htqsuOONRlGSerjdx7jz3g8XH+WpL7s4u/e0zB4ucNFSnOPbF+LWgnd12egyLmpRyhTn9bRtNuNtafiBmkZxQSM4xCF9E1cqeza3uC75L9zbpmvi1d0476ifujFv5BDdbs11I+jch8RnUHH7En3PT8WfNpPS+2x2nIDEfSVIb4Rkvc7PzRVlj4WLX13wz7O3ABleCAAAAABBJAHBct6n94S3Qj4ts52oezyylfFT6lBf8Ayn8TwnK9u02U8sPo9NG2Kv0XqPqr3/BefgX1KiS0ux5dTHTdRwpRUrLTJ6Irte3sNulhtOdN58lv1Lsj8Ttew56cvZx0bJS0R7VtZDwbl7WpKXVHoR8NL7zciQ0QKKGGhD1IRj2JXfa9bLSQkAsRYyRD40fuBgYMzfGhfMh6n8mSK2YMsb4/qY8bgNLEZPpT9enF9ear9+s03kOC9nOUOq913M9exFgl43o9aDtomv8Aa7GUcWvrpwdtq0d+o9ZoqqUUwndhRmnqd9WkravVp7lnfp2mEsMt1utaPIxipRednXST0P5gbD0d50vIetbGJb6cl5P4HHYfGRqySg8567R6T09SO35D5MqrE87OnOMFCVnKLWl2SSv2s4v5ZZtVasYrRM/J9EABjfOAAAAAAQSAPNx+RKFZuVSCcn9ZNp6NWlHg47kBRmnzdevSfVKMl3Si/M7AHUXmPmtpnyU8tpfKK+E5mTp52dmPNzmknK2jOaW1kG1lj29X/Ml5mqjZHD6LHMzWJlKIbJIDsC44ZLFgIfGsLjUJSS12K5V4LW0BPGwwa1edvkzCWMp/aXfxwyfSYPavACW+NPkzB7f6fsWNx38bitrc/h5EjF8bP2EZbw2I8f0AhkMnjrFgK5xIwsFzkLq6zo3Wxq6umWSRFNdJPrXmJJ4fYcPhoQVoQjFboxSXci0R1EmB8tIAAgAAAAAAAAAAHzHK6+nq/wCZPzNU3Mtq2Iq/jkaiNteIfTYvJX6IsG0tZRjMbGmtOvceb9JW0yebDYtomYjlOTJXHG9p2beIypGLsrye5GCWJqaoqmt8n8NZfhaMIepFLr295uRmUzm9HmZfEp4pH5aEcgOXtK8uyK+LNmnyaw+11Jds7eSNuMixSK5yWn5sltZmn+TU/wCm8J9iX/skYVeTWGernI9lS/mnwj0M4hyI67ern91m/vLw6vJtr2VeS6pLwujVnh8XS2Kot8Xd9zszopSK5SO4y2hfTxDNXnu56nldXtNOL3NG9TqRkrxZsYuhCatOKfXbSux6zx62Tp03nUZXX2Xr9zLa5Ynlvw6/HftbtP8Aj0rkmhhcoJ6J3jLczduixtSyEtK7UEjOgrzit8orvaCJ4fYo6iSIkmF8sAAAAAAAAAAAAAPn3KzD5uJk9k7SXck/FHPYzFqC0aZbEfUMsZJhiI2ldNapLQ0crU5Jxpu6vJ/alpfu3GiuWIq9XFr61xREx3hxdPDNvOqaXu3G5GDOgnkhrYV/wx7ii1pmd5efly2y23tLyIRLoI9L+HPcSsAyFTRiiyJuLBMzWDe4DSIZv+hsj0Ngec0VyR6jwbMHgWB5MkUyiey8AzH+HPcBzmLwcZ61p2PajSVWdLRPTHZLZ2Pczr/4W9xksi52hq6exospkmrXp9ZfF25j0c9SqqSumerydw3OYmnFbJKT7I6b8bzdwvIdN3hOcE9a0Ne6+o7LIWQqeGj0LuT9aT1vq0aEiy2WNuzdm1+OaT08y9YBAzvGAAAAAAAAAAAAAEWIlFPWZADVqYKLKJ5PW49EAeS8Atxj6Atx7BGagPH9BRPoSPWzERzaA8r0JD0FHq82ObA8n0FD0FHrc2icxAeSsAtxKyetx62aiQPNjk5bjYp4GKNoAYxglqMgAAAAAAAAANXJeL56jSq2zecpwnm3vm50VK17K9r67G0eZyZ/weG/09H/AI4npgAAAAAAAhgSDkMVjMVKWdFPPpTxDTVGfNyiqUnThZtOT0RTe/VcYrK2KnFJRlTlGadRqhN2j6VCKS+0nSbbtfU9QHXg5CjlHGxnCCSmnXrKc6lOrHorEJQhHNhL+W3JN2WrToZZXx+M5tL69ShUklCjJSp1ObnKKld2SWbFa73a0bQOrBydXLGLjfMg52Wi9Conm80pc+3fXnXjzet2LsnY2ssRPPUnQkk+d5qos6UYLo8210Fa7vpu1bRouHTA5nE5VxCctGb9LOL/ALvUnzcIqbpyun9JnuMdWrOKY5Vx2iTppJpycOZm2s2dCLp519Laq1Hf/wAe3SB1gNPF1asY1ZRhGWbC9OKbzpSSbcZK2hXzbWvtOQniMY4SV6rqRhLmJxjVjCtiW4u9SDXQp3lm5suikp21Kwd2Dh6lerzbUpYvOlGmnorK2JaqZ95RV4Uo9GTzejoile9ns18U1Kq3UxcoxglPNhVUq024NKjFRtTja6co2fTlp6N0HXg429aWZTp16yrKk71JRq81phNRpq8LTlnWbm1nLNX2rEYejjXzLTlFTm3GLrVpOjTU4ycqkpR+mvBSWbUs05pLVoDswAAAAAAAAAB5nJn/AAeG/wBPR/44npgAAAAAAAAAQAAIJYAAAAQSiABIAAAAAQABkAAAAAAAAAAP/9k=" width=101% class="small-img"
+                alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="https://media.istockphoto.com/id/874102830/photo/has.jpg?s=612x612&w=0&k=20&c=sOu-qqMHqyOnTBnYAPUxFpu4NixJSNGkqnksbfZFU2A=" width="100% class="small-img"
+                alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="https://media.istockphoto.com/id/664895508/photo/blank-baseball-cap-color-red.jpg?s=612x612&w=0&k=20&c=27Jfo5qfaxXN36WJS6AiZEz-kwTirOTyUvFuDN-5IsY=" width="100% class="small-img"
+                alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-12">
+            <h6>Home/Caps</h6>
+            <h3 class="py-4">Classic Caps</h3>
+            <h2>$60.00</h2>
+            <select class="my-3">
+              <option>Select Size</option>
+              <option>XXL</option>
+              <option>XL</option>
+              <option>L</option>
+              <option>M</option>
+              <option>S</option>
+            </select>
+            <input type="number" value="1" />
+            <a href="/add_to_cart_v3-main/cart.html"><button class="btn-danger">Add to cart</button></a>
+            <h4 class="mt-5 mb-5">Product Details</h4>
+            <span>Introducing our Classic Cotton Baseball Cap – a versatile, stylish, and comfortable accessory designed for outdoor adventures and casual outings. It's the ideal gift and perfect choice to elevate your look while staying sun-safe. Order yours today to embrace comfort, style, and functionality.Elevate your style and protect yourself from the sun with our Classic Cotton Baseball Cap. Crafted from high-quality cotton,a comfortable fit, and essential sun protection, making it the perfect choice for all your outdoor adventures and casual outings.Order today to experience the ultimate blend of quality, style, and functionality that our Classic Cotton Baseball Cap offers.
+              </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer>
+        <div class="p-3 copyright">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+                <p class="my-0">
+                  Copyright © 2020 <a href="#">Fashion Fla</a> All Rights Reserved
+                </p>
+              </div>
+              <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+                <p>
+                  Designed by <a href="#" target=" _blank">SakshiNikharge</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </header>
+  </body>
+</html>

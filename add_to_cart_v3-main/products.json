@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":"Winter Long Sleeve Black White",
+        "price": 400,
+        "image": "images/p1.jpg"
+    },
+    {
+        "id": 2,
+        "name":" women Floral One-Piece ",
+        "price": 300,
+        "image": "images/p2.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Lace water soluble sexy",
+        "price": 600,
+        "image": "images/p6.jpg"
+    },
+    {
+        "id": 4,
+        "name":" Elegant Formal Party Dress",
+        "price": 500,
+        "image": "images/p4.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Elegant Crystal Drop Earrings",
+        "price": 300,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZlk-06TVeWAiJIwI6IbfBtqhYwAWogbqyaw&usqp=CAU"
+    },
+    {
+        "id": 6,
+        "name":" Classic Leather Handbag",
+        "price": 150.36,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHBUkl77EUHuWniIrmFfwazAdspziDluOD9Q&usqp=CAU"
+    },
+    {
+        "id": 7,
+        "name":" Classic Cotton T-shirt",
+        "price": 135,
+        "image": "productimg/1.jpg"
+    },
+    {
+        "id": 8,
+        "name":" Radiant Swarovski Crystal Necklace",
+        "price": 310.10,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaGzcA3EfGXLHqVPJ0wS-q50GIq5FZmmb3Nw&usqp=CAU"
+    }
+
+]

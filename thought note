@@ -1,0 +1,23 @@
+I made a e-commerce website on women's fashion. i used themify icons and responsive css.
+
+Main.html:
+Home page includes Navbar, home, offer, contact us and footer section.
+I use bootstrap for image carousel and navbar inclues dropdown menu and search for women accessories.
+ 
+If we click on add to cart it will redirect to the dress page and that page contains the cart carousel for featured products.
+
+I used offer-overlay for two offer boxes and add some css.
+
+In featured products i used hover effect which changes one dress to into another for this i used decoding async and add css "up_to_off:hover" effect to the class.
+
+lastly add contact us and footer.
+
+products pages:
+this pages contain all the information relates to that section and if we wantt buy it we have to click on add to cart option. it will redirect to the cart section.
+
+sign in page:
+This is in short a form validation. It contains javascript code for sign in. It also shows error if we add wrong information. Lastly it shows the alert message of "Registration Successfully"
+After clickling on ok button it will redirect to the home page.
+
+Cart page:
+It also includes javascript code for adding and subtracting the quntity of  perticular product in a cart. 
